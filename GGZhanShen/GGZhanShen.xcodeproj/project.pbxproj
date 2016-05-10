@@ -16,6 +16,7 @@
 		39F94EC91CE1DA090069FFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F94EC71CE1DA090069FFE9 /* LaunchScreen.storyboard */; };
 		39F94ED41CE1DA090069FFE9 /* GGZhanShenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F94ED31CE1DA090069FFE9 /* GGZhanShenTests.m */; };
 		39F94EDF1CE1DA090069FFE9 /* GGZhanShenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F94EDE1CE1DA090069FFE9 /* GGZhanShenUITests.m */; };
+		39F94EED1CE1DCB50069FFE9 /* Wilddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F94EEC1CE1DCB40069FFE9 /* Wilddog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		39F94EDA1CE1DA090069FFE9 /* GGZhanShenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGZhanShenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F94EDE1CE1DA090069FFE9 /* GGZhanShenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGZhanShenUITests.m; sourceTree = "<group>"; };
 		39F94EE01CE1DA090069FFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F94EEC1CE1DCB40069FFE9 /* Wilddog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Wilddog.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F94EED1CE1DCB50069FFE9 /* Wilddog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +87,7 @@
 		39F94EAA1CE1DA090069FFE9 = {
 			isa = PBXGroup;
 			children = (
+				39F94EEC1CE1DCB40069FFE9 /* Wilddog.framework */,
 				39F94EB51CE1DA090069FFE9 /* GGZhanShen */,
 				39F94ED21CE1DA090069FFE9 /* GGZhanShenTests */,
 				39F94EDD1CE1DA090069FFE9 /* GGZhanShenUITests */,
@@ -419,6 +423,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GGZhanShen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GGZhanShen;
@@ -430,6 +438,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GGZhanShen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GGZhanShen;
