@@ -16,7 +16,7 @@
 		39F94EC91CE1DA090069FFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F94EC71CE1DA090069FFE9 /* LaunchScreen.storyboard */; };
 		39F94ED41CE1DA090069FFE9 /* GGZhanShenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F94ED31CE1DA090069FFE9 /* GGZhanShenTests.m */; };
 		39F94EDF1CE1DA090069FFE9 /* GGZhanShenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F94EDE1CE1DA090069FFE9 /* GGZhanShenUITests.m */; };
-		39F94EED1CE1DCB50069FFE9 /* Wilddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F94EEC1CE1DCB40069FFE9 /* Wilddog.framework */; };
+		39F94EF01CE1E1A00069FFE9 /* GGZhan.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F94EEF1CE1E1A00069FFE9 /* GGZhan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,8 @@
 		39F94EDA1CE1DA090069FFE9 /* GGZhanShenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGZhanShenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F94EDE1CE1DA090069FFE9 /* GGZhanShenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGZhanShenUITests.m; sourceTree = "<group>"; };
 		39F94EE01CE1DA090069FFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39F94EEC1CE1DCB40069FFE9 /* Wilddog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Wilddog.framework; sourceTree = "<group>"; };
+		39F94EEE1CE1E1A00069FFE9 /* GGZhan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GGZhan.h; path = ../GGZhan.h; sourceTree = "<group>"; };
+		39F94EEF1CE1E1A00069FFE9 /* GGZhan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GGZhan.m; path = ../GGZhan.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39F94EED1CE1DCB50069FFE9 /* Wilddog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,8 @@
 		39F94EAA1CE1DA090069FFE9 = {
 			isa = PBXGroup;
 			children = (
-				39F94EEC1CE1DCB40069FFE9 /* Wilddog.framework */,
+				39F94EEE1CE1E1A00069FFE9 /* GGZhan.h */,
+				39F94EEF1CE1E1A00069FFE9 /* GGZhan.m */,
 				39F94EB51CE1DA090069FFE9 /* GGZhanShen */,
 				39F94ED21CE1DA090069FFE9 /* GGZhanShenTests */,
 				39F94EDD1CE1DA090069FFE9 /* GGZhanShenUITests */,
@@ -282,6 +283,7 @@
 				39F94EBB1CE1DA090069FFE9 /* AppDelegate.m in Sources */,
 				39F94EBE1CE1DA090069FFE9 /* MasterViewController.m in Sources */,
 				39F94EB81CE1DA090069FFE9 /* main.m in Sources */,
+				39F94EF01CE1E1A00069FFE9 /* GGZhan.m in Sources */,
 				39F94EC11CE1DA090069FFE9 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
